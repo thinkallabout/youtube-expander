@@ -1,0 +1,20 @@
+{
+  "name": "YouTube Expander",
+  "description": "Fullscreen",
+  "version": "1.0",
+  "icons": { "128": "icons/icon_128.png" },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+  "page_action": {
+    "default_title": "Maximise YouTube video",
+    "default_icon": "icons/icon_38_fullscreen.png"
+  },
+  "permissions": [
+    "activeTab",
+    "http://www.youtube.com/*",
+    "https://www.youtube.com/*"
+  ],
+  "manifest_version": 2
+}
